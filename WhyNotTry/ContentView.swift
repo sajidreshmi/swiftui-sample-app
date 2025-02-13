@@ -46,7 +46,7 @@ struct ContentView: View {
         
         Spacer()
         
-        Button("Try again") {
+        Button("Try again!!") {
             withAnimation(.easeInOut(duration: 1)) {
                 selected = activities.randomElement() ?? "Archery"
                 id += 1
